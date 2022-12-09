@@ -1,0 +1,72 @@
+/*  this is a example of descendent selector(space) of combination selector*/
+div p{
+
+}
+/* this a ex of child selector of (>) */
+div > p{
+
+}
+/* ex. of adjacent  sibling selector(+)  */
+/* the h1 tag that is adjacent sibling of p tag will get color */
+p + h1{
+color: red;
+}
+h1 + h1{
+    color: green;
+}
+
+/* general sibling selector(~) */
+p ~ p{
+    color: yellow;
+}
+
+/* pseudo class selector */
+.btn{
+    border: 2px solid green;
+}
+
+.btn:hover{
+    background-color: red;
+}
+.item{
+    color:blue;
+
+}
+/* visited ,active pseudo classes generally use for links */
+.item:visited{
+    color: red;
+}
+.item:active{
+    color: powderblue;
+}
+/*generally focus pseudo class  works on input tags */
+.input:focus{
+   outline: none;
+    border: 2px solid red;
+}
+
+/* pseudo element */
+.task::after{
+    /* content property used to add some text/img/vaues inside the code using css */
+    content: "This is a paragraph";  /* or content:url(AJ-HTML/js.png);  */
+}
+.task::first-letter{
+    color: red;
+}
+
+.task::first-line{
+    color: green;
+}
+
+::marker{
+    color: green;
+}
+
+/* Attribute selectors */
+input[type="text"]{
+    color: red;
+    font-size: 20px;
+}
+a[target="_blank"]{
+    background-color: yellow;
+}

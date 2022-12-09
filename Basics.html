@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Html page</title>
+
+</head>
+
+<body>
+    <h1>Acciojob frontend module 1</h1>
+    <h5>start your career with acciojob and land a job upto 50lakh</h5>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In reiciendis voluptatibus quam, soluta, quos aliquid eius aliquam fuga omnis accusantium eum! Dolorem autem tenetur vero!</p>
+    
+    <a href="https://course.acciojob.com/"><img src="js.png" alt="" style="border: 2px solid black;"></a>
+</body>
+<h1 style="background-image: url('/js.png'); width=100px; height: 100px;"></h1>
+<!-- links target attribute means where we want to open our link like _self is going to open link in a same window while _blank open link in new window -->
+<!-- links can be used to add urls to which one can redirect to internally or externally  -->
+<a href="https://course.acciojob.com/"  target="_blank"></a>
+<!-- internal linking of file and pages -->
+<a href="/file.html">this is html file</a>
+<ol type="I">
+    <h3>Ordered list</h3>
+    <li >html</li>
+    <li>css</li>
+    <li>javascript: <ol>
+        <li>React</li>
+        <li>Angular</li>
+        <li>js</li>
+    </ol></li>
+    
+</ol>
+<ul style="list-style-type:none;">
+    <h3>Unordered list</h3>
+    <li>React</li>
+    <li>Angular</li>
+    <li>redux</li>
+</ul>
+<!-- create forms -->
+<h2>Registration form</h2>
+<form >
+    <label for="name">Name:</label>
+    <input type="text" placeholder="enter your name"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text"><br><br>
+    <label for="age">Age:</label>
+    <input type="number"><br><br>
+    
+    <label for="gender">Gender:</label><br><br>
+    <input type="radio" name="gender" value="male">
+    
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female">
+    
+    <label for="female">Female</label><br><br>
+    <label for="email">Email</label>
+    <input type="email"><br><br>
+    <label for="degree">Degree:</label>
+    <input type="checkbox" name="btech" value="btech" required>
+    <label for="btech">Btech</label>
+    <input type="checkbox" name="bsc" value="bsc">
+    <label for="bsc">Bsc</label>
+    <input type="checkbox" name="ba" value="ba">
+    <label for="ba">Ba</label><br><br>
+
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
+
+</form>
+</html>
+
+<!-- video and audio tag with attributes like autoplay,muted,controls,poster means poster on video like poster of video is different and video content is different -->
+<div>
+    <audio src="" type=" " controls></audio>
+</div>
+
+<div>
+    <video src="" type="" controls poster=" "></video>
+</div>
