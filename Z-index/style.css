@@ -1,0 +1,25 @@
+.a,.b,.c,.d{
+    width: 100px;
+    height: 80px;
+   position: relative;
+}
+.a{
+    background-color: red;
+    top: 20px;
+    
+}
+.b{
+    background-color: green;
+    top: 20px;
+}
+.c{
+    background-color: blue;
+
+}
+.d{
+    background-color: yellow;
+}
+img{
+    position: absolute;
+    z-index: -1;
+}

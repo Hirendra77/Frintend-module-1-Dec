@@ -1,4 +1,119 @@
-.price span{
+body{
+    background-color:hsl(155, 89%, 56%);
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-photo{
+    position: relative;
+    z-index: 10000;
+}
+.photo-container{
+    margin-left: 150px;
+    margin-top: 10px;
+   
+}
+.photo-main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    background-color: rgb(183, 240, 97);
+    height: 450px;
+}
+.photo-main .controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+.photo-main img{
+    position: relative;
+    margin-left: -60px;
+}
+.photo-album ul{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: white;
+    width: 250px;
+    height: 130px;
+   box-shadow: -3px 3px 5px grey;
+    margin-bottom: 100px;
+   list-style: none; 
+}
+ .photo-album li{
+ 
+    border: 1px solid black;
+   margin-left: 2px;
+   margin-bottom: 70px;
+   position: relative;
+   top: 60px;
+}
+.info{
+    background-color: #fff;
+    position: relative;
+    border: 2px solid black;
+    top: 70px;
+    height: 600px;
+    width: 90%;
+    margin-left: -250px;
+    margin-right: 100px;
+    z-index: -8;
+}
+.info .title{
+    margin-left: 270px;
+
+}
+.info .price{
+    color: red;
+    padding-top: 30px;
+    margin: 20px 20px;
+    margin-left: 270px;
+    font-weight: 300;
+}
+.info .price span{
     font-size: 40px;
     color: red;
+}
+.variant ul{
+    display: flex;
+    align-items: center;
+} 
+.variant li .appel1{
+    border: 1px solid black;
+    margin-left: 270px; ;
+}
+.variant ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+.title h3{
+    font-weight: 200;
+}
+.variant h3{
+    color: grey;
+    margin-left: 270px;
+}
+ .discription h3{
+    color:grey;
+    margin-left: 270px;
+}
+
+.discription li{
+    padding-top: 8px; 
+    margin-left: 300px;
+}
+.buy-btn{
+    font-size: 15px;
+    background-color: rgb(241, 32, 49);
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    margin-left: 270px;
 }
